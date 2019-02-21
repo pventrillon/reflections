@@ -1,0 +1,44 @@
+versioning is cool
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+  diff -u fold.txt fnew.txt shows difference quickly
+
+  it points the differences for you
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    help you quicly find introduced bugs
+    make you confident while performing big changes (because you know you can rollback)
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+  automatic commit are dumb. they do not commit a finished state.
+  you are supposed tio commit something meainngful + complete
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+  some consider files are independent
+  some consider files are linked
+
+How can you use the commands git log and git diff to view the history of files?
+  git log --> view
+  git diff c1 c2 --> diff between 2 commits
+
+How might using version control make you more confident to make changes that could break something?
+  I can revert my changes if they are wrong
+
+
+ git log
+ git log --stat
+ git diff commitId commitId
+ git --version
+ git clone <URL>
+ git config --global color.ui auto
+ git checkout commitId                    
+
+ git init 			-- creates a repo
+ git status			-- shows the current branch , which files are under control, ...
+ git add <file>			-- add file to the staging area
