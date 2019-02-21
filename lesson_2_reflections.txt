@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+  the repo is empty no files in it
+  the repo has no commit
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+  the working area can contain more files. Some may be useless to track
+  the staging area enables to select a set for a commit.
+
+
