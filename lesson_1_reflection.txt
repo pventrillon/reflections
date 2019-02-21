@@ -42,3 +42,4 @@ How might using version control make you more confident to make changes that cou
  git init 			-- creates a repo
  git status			-- shows the current branch , which files are under control, ...
  git add <file>			-- add file to the staging area
+ git rm -cached < file>		-- remove a file from the staging area
