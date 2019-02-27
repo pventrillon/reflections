@@ -6,4 +6,18 @@ How is the staging area different from the working directory and the repository?
   the working area can contain more files. Some may be useless to track
   the staging area enables to select a set for a commit.
 
+How can you use the staging area to make sure you have one commit per logical change?
+  use git diff --staged to see what you commit
+  use git rm --cached to remove what shoulf not be part of the commit
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+  make a new release while continuing to fix
+  create a fork
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+  result is to cumulate the changes made in the two branches
+  
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+  manually is error prone and time consuming
+  automatic does not work all the time

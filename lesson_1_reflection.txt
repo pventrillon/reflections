@@ -34,12 +34,40 @@ How might using version control make you more confident to make changes that cou
  git log
  git log --stat
  git diff commitId commitId
+ git diff			-- compares working dir to staging area
+ git diff --staged		-- compares staging area to latest commit
+ git show
  git --version
  git clone <URL>
+ git clone <URL> <directory>
  git config --global color.ui auto
  git checkout commitId                    
+ git checkout branch            -- working dir now contains branch
+git checkout -b branch         -- create branch from current commit + working dir now contains branch
+ git log --graph --online label1 label2
 
  git init 			-- creates a repo
  git status			-- shows the current branch , which files are under control, ...
  git add <file>			-- add file to the staging area
  git rm -cached < file>		-- remove a file from the staging area
+
+ git branch			-- shows current and other branches
+ git branch label		-- creates a new branch
+ git branch -d label		-- deletes branch
+ 
+ git merge label		-- merges label into current branch
+
+ git remote			-- see all the current remotes
+ git remote add <remName> url	-- add a remote named
+ git remote -v
+ 
+ git push origin master		-- push branch master to origin remote
+
+ git pull origin master		-- pulls origin
+
+$ git config --global credential.helper cache
+# Set git to use the credential memory cache
+$ git config --global credential.helper 'cache --timeout=3600'
+# Set the cache to timeout after 1 hour (setting is in seconds)
+
+
