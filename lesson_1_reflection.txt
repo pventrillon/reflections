@@ -65,6 +65,8 @@ git checkout -b branch         -- create branch from current commit + working di
 
  git pull origin master		-- pulls origin
 
+ git fetch origin	-- update local repo from remote
+
 $ git config --global credential.helper cache
 # Set git to use the credential memory cache
 $ git config --global credential.helper 'cache --timeout=3600'

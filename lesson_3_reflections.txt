@@ -9,3 +9,8 @@ Describe the differences between forks, clones, and branches. When would you use
   clones -> copy the repo to your local hard drive
   branches -> allows to make a dev in the same repo aside existing version
   fork -> allows to take a remote repo and build your own remote repo where several developers can colaborate
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+  you can merge offline ?
+
+
